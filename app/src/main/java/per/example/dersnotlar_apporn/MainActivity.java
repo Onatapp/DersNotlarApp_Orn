@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
             });
         });
     }
-// (feat):Uygulama, Volley kullanarak CRUD işlemleriyle tekrar geliştirildi
+
 
     @Override
     public void onBackPressed() {
