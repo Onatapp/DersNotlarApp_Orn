@@ -4,10 +4,5 @@
         <item name="android:statusBarColor">@color/statusbar</item>
     </style>
 
-    <style name="DialogAnimation">
-        <item name="android:windowEnterAnimation">@anim/slide_in_anim</item>
-        <item name="android:windowExitAnimation">@anim/slide_out_anim</item>
-    </style>
-
     <style name="Theme.DersNotlar_AppOrn" parent="Base.Theme.DersNotlar_AppOrn" />
 </resources>

@@ -4,17 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NotDetayActivity">
+    tools:context=".NotKayitActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#673AB7"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Ders Notu Kaydet"
+        app:titleTextColor="@color/white" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_DetayDersAdi"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/detayToolbar">
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editTxt_DetayDersAdi"
@@ -39,7 +53,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Birinci Not"
-            android:inputType="number" />
+            android:inputType="number"
+            android:singleLine="true" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -57,20 +72,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="İkinci Not"
-            android:inputType="number" />
+            android:inputType="number"
+            android:singleLine="true" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/detayToolbar"
-        android:layout_width="0dp"
+    <Button
+        android:id="@+id/btnNotKayit"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
-        android:background="#673AB7"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
+        android:layout_marginTop="16dp"
+        android:text="Kaydet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:title="Ders Notu Detayları"
-        app:titleTextColor="@color/white" />
+        app:layout_constraintTop_toBottomOf="@+id/input_DetayNot2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
