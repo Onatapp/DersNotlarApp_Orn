@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "684862826475",
+    "firebase_url": "https://egitim-veritabani-ec0b4-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "egitim-veritabani-ec0b4",
+    "storage_bucket": "egitim-veritabani-ec0b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684862826475:android:b3ee19997cb090b3079bae",
+        "android_client_info": {
+          "package_name": "per.example.dersnotlar_apporn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtLjF90HJXEpVktifzqHj2N-CsnD1Mrpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684862826475:android:45ff3b1d3625fba0079bae",
+        "android_client_info": {
+          "package_name": "per.onatsoft.internet_tabanli_islemler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtLjF90HJXEpVktifzqHj2N-CsnD1Mrpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

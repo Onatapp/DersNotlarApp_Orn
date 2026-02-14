@@ -22,10 +22,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="per.example.dersnotlar_apporn" />
+                  <option name="mobileSdkAppId" value="1:684862826475:android:b3ee19997cb090b3079bae" />
+                  <option name="projectId" value="egitim-veritabani-ec0b4" />
+                  <option name="projectNumber" value="684862826475" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

@@ -94,6 +94,8 @@
             android:layout_marginBottom="18dp"
             android:backgroundTint="#7E57C2"
             android:text="Kaydet"
+            android:textColor="@color/white"
+            android:textColorLink="#9D9D9D"
             app:rippleColor="#5E35B1" />
 
     </LinearLayout>

@@ -3,35 +3,35 @@ package per.example.dersnotlar_apporn;
 import java.io.Serializable;
 
 public class Notlar implements Serializable {
-    private int notID;
-    private String dersAdi;
+    private String not_id;
+    private String ders_adi;
     private int not1;
     private int not2;
 
     public Notlar() {
     }
 
-    public Notlar(int notID, String dersAdi, int not1, int not2) {
-        this.notID = notID;
-        this.dersAdi = dersAdi;
+    public Notlar(String notID, String ders_adi, int not1, int not2) {
+        this.not_id = notID;
+        this.ders_adi = ders_adi;
         this.not1 = not1;
         this.not2 = not2;
     }
 
-    public int getNotID() {
-        return notID;
+    public String getNotID() {
+        return not_id;
     }
 
-    public void setNotID(int notID) {
-        this.notID = notID;
+    public void setNotID(String notID) {
+        this.not_id = notID;
     }
 
     public String getDersAdi() {
-        return dersAdi;
+        return ders_adi;
     }
 
     public void setDersAdi(String dersAdi) {
-        this.dersAdi = dersAdi;
+        this.ders_adi = dersAdi;
     }
 
     public int getNot1() {
