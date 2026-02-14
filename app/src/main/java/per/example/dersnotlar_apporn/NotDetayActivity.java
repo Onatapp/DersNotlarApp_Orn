@@ -72,8 +72,6 @@ public class NotDetayActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         /*
-        Ders notlar uygulaması Firebase DB ve Retrofit kullanarak yeniden geliştirildi.
-
         Kayıtlı ders notlarının SİLME ve GÜNCELLEME işlemleri FIREBASE DB yöntemi ile yapılıyor.
          */
         String dersAd = bind.editTxtDetayDersAdi.getText().toString().trim();
